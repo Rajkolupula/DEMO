@@ -45,7 +45,7 @@ spec:
     spec:
       containers:
         - name: my-app-container
-          image: rkolupula589@gmail.com/myapp-image/latest
+          image: rajukolupula/myapp-image:latest
           ports:
             - containerPort: 8080
           volumeMounts:
