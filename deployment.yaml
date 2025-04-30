@@ -18,7 +18,7 @@ data:
     </head>
     <body>
       <h1>Welcome to My App!</h1>
-      <p>Deployed via Kubernetes using the Docker image <strong>sushmamounika/my-repo-sm:latest</strong></p>
+      <p>Deployed via Kubernetes using the Docker image <strong>rajukolupula/my-repo-sm:latest</strong></p>
     </body>
     </html>
 
@@ -45,7 +45,7 @@ spec:
     spec:
       containers:
         - name: my-app-container
-          image: rajukolupula/myapp-image:latest
+          image: rajukolupula/myappimage:latest
           ports:
             - containerPort: 8080
           volumeMounts:
